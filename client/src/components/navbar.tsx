@@ -8,13 +8,14 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useTheme } from "./theme.provider";
+
 export default function Navbar() {
   const { setTheme } = useTheme();
 
   return (
     <nav className="py-6 px-3 md:px-5 lg:px-7">
       <div className="flex items-center justify-between">
-        <span className="text-xl md:text-2xl font-extrabold">gistube</span>
+        <span className="text-xl md:text-2xl font-extrabold">summify</span>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" size="icon">
